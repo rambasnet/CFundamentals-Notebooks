@@ -16,7 +16,7 @@ Fundamental Programming Concepts in C
 -   Once miniconda is installed, install Jupyter Notebook using conda
     -   `conda install notebook`
 -   install minimal C kernel using terminal
-    -   `sudo pip install jupyter notebook`
+    -   `sudo pip install jupyter-c-kernel`
     -   `sudo install_c_kernal`
 
 # Play With Notebooks

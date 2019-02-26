@@ -22,7 +22,7 @@ Fundamental Programming Concepts in C
 # Play With Notebooks
 
 -   Clone/download this repository
--   Compile and run C programs found in booksrc folder: https://github.com/intere/hacking
+-   Compile and run C programs found in demo-programs folder
 -   Using a terminal cd into the repo folder and run
     -   `jupyter notebook`
 -   Open 00-Introduction.ipynb chapter and access the rest of the notebooks

@@ -17,7 +17,7 @@ Fundamental Programming Concepts in C
     -   `conda install notebook`
 -   install minimal C kernel using terminal
     -   `sudo pip install jupyter-c-kernel`
-    -   `sudo install_c_kernal`
+    -   `sudo install_c_kernel`
 
 # Play With Notebooks
 

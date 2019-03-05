@@ -1,6 +1,6 @@
 # C Fundamentals
 
-Fundamental Programming Concepts in C
+Learning Fundamental Programming Concepts in C using Jupyter Notebook
 
 # Requirements
 
@@ -19,10 +19,10 @@ Fundamental Programming Concepts in C
     -   `sudo pip install jupyter-c-kernel`
     -   `sudo install_c_kernel`
 
-# Play With Notebooks
+# Play with Notebooks
 
 -   Clone/download this repository
 -   Compile and run C programs found in demo-programs folder
 -   Using a terminal cd into the repo folder and run
     -   `jupyter notebook`
--   Open 00-Introduction.ipynb chapter and access the rest of the notebooks
+-   Open 00-Introduction.ipynb chapter and access all the notebooks

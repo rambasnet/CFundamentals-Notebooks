@@ -20,7 +20,7 @@ void function() {
 int main() {
    int stack_var; // same name as the variable in function()
    static int static_var;
-   int *heap_var_ptr;
+   int * heap_var_ptr;
    static int static_initialized_var = 5;
 
    heap_var_ptr = (int *) malloc(4);

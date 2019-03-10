@@ -25,8 +25,10 @@ int main() {
 
    heap_var_ptr = (int *) malloc(4);
    printf("%s\n", "output from main function");
+   // these addressse are in the code/text segment
    printf("main is at address: %p\n", main);
    printf("function is at address: %p\n", function);
+   
    // These variables are in the data segment
    printf("global_initialized_var is at address %p\n", &global_initialized_var);
    printf("static_initialized_var is at address %p\n\n", &static_initialized_var);

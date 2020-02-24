@@ -15,6 +15,6 @@ if (( $# == 1 )); then
 elif (( $# == 2 )); then
     gcc -g -m32 -fno-stack-protector -z execstack -no-pie -o $2 $1
 else
-    echo "Error... No input file provided..."
+    echo "Error: No input file provided..."
     echo "./compile.sh <inputfile.c> [a.out]"
 fi

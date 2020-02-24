@@ -3,7 +3,7 @@
 # disable aslr
 read aslr < /proc/sys/kernel/randomize_va_space
 if (( $aslr != 0 )); then
-    if (( id -u != 0)); then
+    if (( id -u != 0 )); then
         echo "Need sudo priviledge to disable aslr..."
     fi
     echo 0 | sudo tee /proc/sys/kernel/randomize_va_space

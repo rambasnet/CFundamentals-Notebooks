@@ -21,8 +21,10 @@ void test() {
 }
 
 int main(int arg_count, char* argv_list[]) {
-    if (arg_count == 2 && strncmp(argv_list[1], "test", 4) == 0)
+    printf("argument count = %d\n", arg_count);
+    if (arg_count == 2 && strncmp(argv_list[1], "test", 4) == 0) {
         test();
+    }
     else {
         printf("1! = %llu\n", factorial(1));
         printf("5! = %llu\n", factorial(5));

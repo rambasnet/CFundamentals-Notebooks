@@ -4,11 +4,11 @@
 #include <unistd.h>
 
 int main() {
-    system("clear"); // bad for security! why?
+    system("/bin/bash"); // bad for security! why?
     for(int i=10; i>0; i--) {
         printf("%d\n", i);
         sleep(1); //takes second;
-        system("clear");
+        system("date");
     }
     printf("Blast off!\n");
     return 0;
